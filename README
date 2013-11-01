@@ -1,0 +1,6 @@
+breaknode.py
+
+This is a quick and very dirty proof of concept of the Node.js denial of
+service vulnerability (sort of)  disclosed in October 2013. Play nicely.
+
+Copyright 2013 Coydog Software
