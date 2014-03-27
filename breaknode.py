@@ -8,7 +8,7 @@ import sys
 import socket
 
 if len(sys.argv) < 3:
-	print("Usage " + sys.argv[0] + " <host> <port")
+	print("Usage " + sys.argv[0] + " <host> <port>")
 	exit()
 
 host = sys.argv[1]
