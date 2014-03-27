@@ -11,9 +11,10 @@ if len(sys.argv) < 3:
 	print("Usage " + sys.argv[0] + " <host> <port")
 	exit()
 
-req = "GET / HTTP/1.1\r\n\r\n"
 host = sys.argv[1]
 port = int(sys.argv[2])
+req = "GET / HTTP/1.1\r\nHost: " + host + " \r\n\r\n"
+print req;
 
 def blast():
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
